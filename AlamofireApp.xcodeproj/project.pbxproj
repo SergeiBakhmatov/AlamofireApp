@@ -56,15 +56,55 @@
 		77490CB02A0F5CC8007FFFA3 /* AlamofireApp */ = {
 			isa = PBXGroup;
 			children = (
-				77490CB12A0F5CC8007FFFA3 /* AppDelegate.swift */,
-				77490CB32A0F5CC8007FFFA3 /* SceneDelegate.swift */,
-				77490CB52A0F5CC8007FFFA3 /* ViewController.swift */,
-				77490CB72A0F5CC8007FFFA3 /* Main.storyboard */,
+				77490CC92A0F5D4B007FFFA3 /* ViewControllers */,
+				77490CC82A0F5D39007FFFA3 /* App */,
+				77490CC72A0F5D2B007FFFA3 /* Models */,
+				77490CC62A0F5D21007FFFA3 /* Services */,
+				77490CC52A0F5D11007FFFA3 /* Storyboadrs */,
 				77490CBA2A0F5CC9007FFFA3 /* Assets.xcassets */,
-				77490CBC2A0F5CC9007FFFA3 /* LaunchScreen.storyboard */,
-				77490CBF2A0F5CC9007FFFA3 /* Info.plist */,
 			);
 			path = AlamofireApp;
+			sourceTree = "<group>";
+		};
+		77490CC52A0F5D11007FFFA3 /* Storyboadrs */ = {
+			isa = PBXGroup;
+			children = (
+				77490CBC2A0F5CC9007FFFA3 /* LaunchScreen.storyboard */,
+				77490CB72A0F5CC8007FFFA3 /* Main.storyboard */,
+			);
+			path = Storyboadrs;
+			sourceTree = "<group>";
+		};
+		77490CC62A0F5D21007FFFA3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77490CC72A0F5D2B007FFFA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77490CC82A0F5D39007FFFA3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				77490CB32A0F5CC8007FFFA3 /* SceneDelegate.swift */,
+				77490CB12A0F5CC8007FFFA3 /* AppDelegate.swift */,
+				77490CBF2A0F5CC9007FFFA3 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		77490CC92A0F5D4B007FFFA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				77490CB52A0F5CC8007FFFA3 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBNC46BWQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AlamofireApp/Info.plist;
+				INFOPLIST_FILE = AlamofireApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,9 +342,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SergeiBakhmatov.AlamofireApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBNC46BWQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AlamofireApp/Info.plist;
+				INFOPLIST_FILE = AlamofireApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,9 +373,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SergeiBakhmatov.AlamofireApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
