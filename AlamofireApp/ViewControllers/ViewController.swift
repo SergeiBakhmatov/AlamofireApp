@@ -18,7 +18,8 @@ final class ViewController: UIViewController {
     }
     
     private func fetchFruits() {
-        networkManager.fetchFruits(from: URL(string: "https://www.fruityvice.com/api/fruit/all")!) { [weak self] result in
+        networkManager.fetchFruits(
+            from: URL(string: "https://www.fruityvice.com/api/fruit/all")!) { [weak self] result in
             switch result {
             case .success(let fruits):
                 self?.fruits = fruits
