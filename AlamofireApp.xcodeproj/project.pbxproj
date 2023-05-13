@@ -14,6 +14,8 @@
 		77490CBB2A0F5CC9007FFFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77490CBA2A0F5CC9007FFFA3 /* Assets.xcassets */; };
 		77490CBE2A0F5CC9007FFFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77490CBC2A0F5CC9007FFFA3 /* LaunchScreen.storyboard */; };
 		77490CCC2A0F5E2A007FFFA3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 77490CCB2A0F5E2A007FFFA3 /* Alamofire */; };
+		77490CCE2A0F5E7D007FFFA3 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77490CCD2A0F5E7D007FFFA3 /* Fruit.swift */; };
+		77490CD02A0F61AB007FFFA3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77490CCF2A0F61AB007FFFA3 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		77490CBA2A0F5CC9007FFFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77490CBD2A0F5CC9007FFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77490CBF2A0F5CC9007FFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77490CCD2A0F5E7D007FFFA3 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		77490CCF2A0F61AB007FFFA3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		77490CC62A0F5D21007FFFA3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				77490CCF2A0F61AB007FFFA3 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 		77490CC72A0F5D2B007FFFA3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77490CCD2A0F5E7D007FFFA3 /* Fruit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,7 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77490CCE2A0F5E7D007FFFA3 /* Fruit.swift in Sources */,
 				77490CB62A0F5CC8007FFFA3 /* ViewController.swift in Sources */,
+				77490CD02A0F61AB007FFFA3 /* NetworkManager.swift in Sources */,
 				77490CB22A0F5CC8007FFFA3 /* AppDelegate.swift in Sources */,
 				77490CB42A0F5CC8007FFFA3 /* SceneDelegate.swift in Sources */,
 			);
